@@ -1,0 +1,23 @@
+.drum-container {
+  margin: 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.drum-pad {
+  background-color: #333;
+  border: 2px solid #ff4c60;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.drum-pad:hover {
+  background-color: #ff4c60;
+  transform: scale(1.05);
+}
